@@ -15,7 +15,7 @@ Built by Nusa Digital Solutions Sdn. Bhd. for a university library.
 | Member | Role | Owns |
 |---|---|---|
 | Iqra Izz | Project Manager & Lead Systems Analyst | Root files (`app.py`, `README.md`, `INTERFACE_CONTRACT.md`, `CLAUDE.md`, `requirements.txt`), project scope, sign-off on contract changes |
-| Muhaimmin | Data Engineer & System Architect | `database/`, `data/` |
+| Muhaimin | Data Engineer & System Architect | `database/`, `data/` |
 | Aidil Haqkim | Lead AI & Machine Learning Engineer | `ml_engine/` |
 | Muhammad Nabil | Full-Stack Developer & UI/UX Specialist | `ui/`, `pages/` |
 
@@ -57,7 +57,7 @@ Notes:
 
 - `sentence-transformers` installs PyTorch, which is a large download.
 - Never commit `.env`. It is git-ignored. Only `.env.example` is tracked.
-- Full datasets (`data/full_dataset*`) and model artifacts (`*.pkl`, `*.joblib`) are git-ignored. Get them from Muhaimmin or Aidil, not from Git.
+- Full datasets (`data/full_dataset*`) and model artifacts (`*.pkl`, `*.joblib`) are git-ignored. Get them from Muhaimin or Aidil, not from Git.
 
 ---
 
@@ -120,9 +120,9 @@ Nusa-Pantun/
 ├── README.md
 ├── requirements.txt
 ├── .env.example
-├── database/               # PostgreSQL schema and access layer (Muhaimmin)
+├── database/               # PostgreSQL schema and access layer (Muhaimin)
 ├── ml_engine/              # Embeddings, ranking, SHAP, search_pantun() (Aidil)
 ├── ui/                     # Shared Streamlit components and theme (Muhammad Nabil)
 ├── pages/                  # Streamlit pages (Muhammad Nabil)
-└── data/                   # Dataset files; full datasets are git-ignored (Muhaimmin)
+└── data/                   # Dataset files; full datasets are git-ignored (Muhaimin)
 ```

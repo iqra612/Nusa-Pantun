@@ -3,7 +3,7 @@
 This document is the source of truth for interfaces between team modules.
 
 - **Owner:** Iqra Izz (Project Manager & Lead Systems Analyst)
-- **Schema implementer:** Muhaimmin (`database/`)
+- **Schema implementer:** Muhaimin (`database/`)
 - **Function implementer:** Aidil Haqkim (`ml_engine/`)
 - **Consumers:** Muhammad Nabil (`ui/`, `pages/`)
 

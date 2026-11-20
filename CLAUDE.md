@@ -39,11 +39,11 @@ Theme: minimalist cream background with dark-green accents.
 
 | Folder | Owner | Responsibility |
 |---|---|---|
-| `database/` | Muhaimmin (Data Engineer & System Architect) | PostgreSQL schema, migrations, DB access layer |
+| `database/` | Muhaimin (Data Engineer & System Architect) | PostgreSQL schema, migrations, DB access layer |
 | `ml_engine/` | Aidil Haqkim (Lead AI & ML Engineer) | Sentence-BERT embeddings, LightGBM ranking, SHAP explanations, `search_pantun()` |
 | `ui/` | Muhammad Nabil (Full-Stack Developer & UI/UX) | Streamlit UI components, theme, shared widgets |
 | `pages/` | Muhammad Nabil (Full-Stack Developer & UI/UX) | Streamlit multipage views (Utama, Carian Pantun, Simpanan, Tentang, Admin) |
-| `data/` | Muhaimmin (data) | Dataset files. Full datasets are git-ignored. |
+| `data/` | Muhaimin (data) | Dataset files. Full datasets are git-ignored. |
 | Root (`app.py`, `INTERFACE_CONTRACT.md`, `README.md`, `requirements.txt`) | Iqra Izz (Project Manager & Lead Systems Analyst) | Entry point, contracts, project docs |
 
 Iqra Izz: project management and lead systems analysis.
