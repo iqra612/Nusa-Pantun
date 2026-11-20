@@ -1,0 +1,8 @@
+streamlit
+python-dotenv
+psycopg2-binary
+pandas
+scikit-learn
+sentence-transformers
+lightgbm
+shap
