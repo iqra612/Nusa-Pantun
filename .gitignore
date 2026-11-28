@@ -7,7 +7,6 @@ venv/
 data/pirs.db
 data/pirs_backup.db
 data/cache/
-data/Dataset/
 data/full_dataset*
 *.pkl
 *.joblib
