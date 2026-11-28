@@ -5,5 +5,10 @@ __pycache__/
 venv/
 .pytest_cache/
 data/pirs.db
+data/pirs_backup.db
 data/cache/
+data/Dataset/
+data/full_dataset*
+*.pkl
+*.joblib
 .DS_Store

@@ -90,6 +90,27 @@ git push -u origin feature/<module>-<short-description>
 
 Then open a Pull Request into `main` on GitHub.
 
+### Do not upload files through the GitHub website
+
+Do not use "Add file → Upload files" on GitHub. It skips review and leaves your local copy out of date. Always change code with `git` as shown above.
+
+### Getting the latest code
+
+If your local copy seems out of date, run:
+
+```bash
+git checkout main
+git pull origin main
+```
+
+Do not download a ZIP of the repository. It is not updated by `git pull`.
+
+### Data files are not in Git
+
+The live database (`data/pirs.db`, `data/pirs_backup.db`) and the dataset (`data/Dataset/`) are git-ignored. Each person keeps their own copies.
+
+**Before your first pull after this change:** copy your existing `data/pirs.db` (and `data/Dataset/` if you have it) to a safe folder outside the repo. Git may delete these files when it updates them. After pulling, copy them back into `data/`. Get the dataset from Muhaimin if you don't have it.
+
 ### Rules
 
 1. **One branch per task.** Name it `feature/<module>-<short-description>`.
