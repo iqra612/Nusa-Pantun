@@ -1,17 +1,9 @@
-# Python
+.env
 __pycache__/
 *.pyc
-
-# Virtual environments
+.venv/
 venv/
-
-# Secrets and local configuration
-.env
-
-# OS files
+.pytest_cache/
+data/pirs.db
+data/cache/
 .DS_Store
-
-# Datasets and model artifacts
-data/full_dataset*
-*.pkl
-*.joblib
